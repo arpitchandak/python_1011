@@ -17,7 +17,9 @@ class Calculator:
 		elif(self.b>self.a):
 			print(self.b/self.a)
 
-p1 = Calculator(10,20)
+a = int(input("a = "))
+b = int(input("b = "))
+p1 = Calculator(a,b)
 p1.add()
 p1.sub()
 p1.mul()
